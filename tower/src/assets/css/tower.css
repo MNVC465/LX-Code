@@ -1,0 +1,223 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  min-width: 1000px;
+  background: #F4F7ED;
+}
+
+/**
+   设置背景颜色
+   */
+
+/*使用ul制作菜单相关处理操作*/
+.ul-menu{
+  list-style-type: none;
+}
+
+.ul-menu li{
+  display: inline-block;
+  padding-left: 15px;
+}
+
+/**
+ a 超链接相关操作 默认操作
+ */
+a{
+  text-decoration: none;
+  color: gray;
+}
+a:hover{
+  color: #44ACB6;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.align-right{
+  text-align: right;
+}
+/**
+设置左浮动
+ */
+
+.left{
+  float: left;
+}
+
+.left span {
+  padding-right: 10px;
+}
+/**
+设置右浮动
+ */
+.right{
+  float: right;
+}
+.right span{
+  padding-right: 10px;
+}
+
+/**
+  list列表中初始化先实现
+ */
+.list-hide-div .list-hide{
+  color: white;
+}
+.list-hide-div:hover .list-hide{
+  color: #44ACB6;
+}
+
+/**
+  设置用户的头像
+ */
+
+/*小头像*/
+.userImageMin{
+  text-align: left;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  margin-right: 5px;
+}
+
+/*中等头像*/
+
+.userImageMedium{
+  text-align: left;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+}
+
+/*大头像*/
+.userImageMax{
+  text-align: left;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin-right: 5px;
+}
+
+.userImageLi{
+  padding-left: 0px!important;
+}
+
+.userImageSpan{
+  margin: 0 auto;
+}
+
+/**
+  默认显示白色隐藏
+ */
+.white-color{
+  color: white;
+}
+
+/**
+  鼠标进入时显示
+ */
+.taskDiv:hover .white-color{
+  color: gray;
+}
+
+/**
+  设置为行内块
+ */
+.inline-block{
+display: inline-block;
+}
+
+/**
+  设置为块状
+ */
+.block{
+  display: block;
+}
+
+
+/*去掉弹出层头部关闭按钮*/
+.el-dialog__header{
+  display: none;
+}
+
+/*
+ 设置dropMenu默认高度为300 超出内容时添加滚动条
+ */
+/*.el-dropdown-menu{
+  height: 300px;
+  overflow: auto;
+}*/
+
+/**
+  设置文件上传 拖拽的宽度和高度
+ */
+.el-upload-dragger{
+  width: 500px!important;
+  height: 150px!important;
+}
+
+/**
+ 为底部添加边框
+ */
+.boder-bottom{
+  border-bottom: 1px solid #D3D3D3;
+}
+
+/**
+ 设置字体为暗灰色
+ */
+.dark-grey{
+  color: #D3D3D3;
+}
+
+
+
+/**
+  设置列表边框
+ */
+.list-view-boder{
+  border-bottom: 1px solid #D3D3D3;
+  border-top: 1px solid #D3D3D3;
+}
+
+/**
+ 标签颜色显示 针对span的tag样式处理
+ */
+.tag-span-color-view{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.tag-span-name-view{
+  position: relative;
+  top: -10px;
+}
+
+.tag-view-name{
+  display: inline-block;
+  height: 30px;
+  border-radius: 6px;
+  padding: 0px 5px 0px 5px;
+  margin-right: 5px;
+}
+
+/*设置simdtor中图片显示的大小*/
+
+.simditor-body img{
+  max-width: 100%;
+  padding: 2px 2px 2px 2px;
+}
+
+.simditor{
+  border: none;
+}
+.simditor-wrapper{
+  border: 1px solid #c9d8db;
+}
+
+
+
